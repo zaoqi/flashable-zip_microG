@@ -30,10 +30,10 @@ function fetch() {
 function get_repo_base_url() {
   case $1 in
     'fdroid' )
-      local BASE_URL='https://f-droid.org/repo'
+      local BASE_URL='https://f-droid.org/repo/index.xml'
       ;;
     'microg' )
-      local BASE_URL='https://microg.org/fdroid/repo'
+      local BASE_URL='https://microg.org/fdroid/repo/index.xml'
       ;;
   esac
 
